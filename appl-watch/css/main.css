@@ -1,0 +1,71 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	/* font-family: "Montserrat", serif; */
+	font-weight: 400;
+	font-size: 14px;
+}
+.card {
+	margin-top: 60px;
+	margin-left: 60px;
+	padding: 20px 45px 50px;
+	border: 1px solid #dbb9b9;
+	text-align: center;
+	width: 420px;
+	color: #000;
+	background: #fff;
+}
+.card-img {
+	margin-bottom: 30px;
+}
+.card-tile {
+	font-weight: 700;
+	font-size: 32px;
+	color: #cd2626;
+	margin-bottom: 30px;
+}
+.card-text {
+	font-size: 14px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+.card-text p + p {
+	margin-top: 1em;
+}
+.card-text a {
+	color: #bd3030;
+	text-decoration: underline;
+}
+.price {
+	font-size: 26px;
+	margin-bottom: 30px;
+}
+.price-bold {
+	font-weight: 700;
+}
+.btn {
+	display: inline-block;
+	padding: 16px 42px 17px;
+	background: #cd2626;
+	border: 1px solid #cd2626;
+	border-radius: 8px;
+	font-weight: 700;
+	font-size: 22px;
+	color: #fff;
+	transition: all 0.3s ease;
+}
+.btn:hover,
+.btn:focus {
+	background: #fdfdfd;
+	background: #e41919;
+	border: 1px solid #e41919;
+}
+.btn:active {
+	position: relative;
+	top: 1px;
+	background: #8e1010;
+	border: 1px solid #8e1010;
+	color: #fff;
+}
