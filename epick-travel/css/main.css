@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Manrope:regular,500,700,800);
+
+body {
+	font-family: 'Manrope', sans-serif;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.sticky-footer {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.title-2 {
+	font-size: 48px;
+	font-weight: 800px;
+	line-height: 1;
+}
+.title-2 span {
+	color: #81b4bd;
+}
+.header {
+	padding: 40px 0;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-list {
+	display: flex;
+	align-items: center;
+	gap: 60px;
+}
+
+.nav-list a {
+	color: #000;
+	transition: color 0.3s ease-in;
+}
+.nav-list a.active {
+	color: #81b4bd;
+}
+.nav-list a:hover {
+	color: #00ceb5;
+}
+/* Main Page */
+
+/* promo */
+.promo {
+	display: flex;
+	align-items: center;
+	padding-left: 70px;
+	height: 500px;
+	background: #394d42;
+	background-image: url('./../img/promo/promo-bg.jpg');
+	background-position: center;
+	background-size: cover;
+	border-radius: 40px;
+	color: #fff;
+}
+@media (-webkit-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	.promo {
+		background-image: url('./../img/promo/promo-bg@2x.jpg');
+	}
+}
+
+.promo-title {
+	font-weight: 800;
+	font-size: 60px;
+	margin-bottom: 10px;
+}
+.promo-text {
+	font-size: 24px;
+}
+
+/* main content */
+.main-content {
+	padding: 90px 0;
+	display: flex;
+	flex-direction: column;
+	row-gap: 60px;
+}
+.content-row {
+	display: flex;
+	align-items: center;
+	column-gap: 50px;
+}
+.content-row.content-row-reverse {
+	flex-direction: row-reverse;
+}
+.content-img {
+	flex-shrink: 0;
+	overflow: hidden;
+	border-radius: 40px;
+}
+.content-text {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.content-text p {
+	font-size: 18px;
+	line-height: 1.8;
+}
+.content-text a {
+	color: #81b4bd;
+	text-decoration: underline;
+}
+
+/* footer */
+
+.footer {
+	margin-top: auto;
+	background: #111;
+	padding: 60px 0;
+	color: #ffffff;
+}
+
+.footer-row {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+.footer-copyright {
+	font-size: 14px;
+	line-height: 1.8;
+	color: rgb(255, 255, 255, 0.3);
+}
+.footer-contacts {
+	text-align: right;
+}
+.footer-phone {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.5;
+	color: #ffffff;
+}
+.footer-email {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #00bda6;
+	margin-bottom: 10px;
+}
+.footer-address {
+	font-size: 14px;
+	line-height: 1.5;
+	color: rgb(255, 255, 255, 0.5);
+}
