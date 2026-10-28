@@ -14,18 +14,23 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-.title-2 {
+.title-1 {
 	font-size: 48px;
-	font-weight: 800px;
+	font-weight: 800;
 	line-height: 1;
 }
-.title-2 span {
+.title-1 span {
 	color: #81b4bd;
+}
+.text-center {
+	text-align: center;
 }
 .header {
 	padding: 40px 0;
 }
-
+.header-bg {
+	background: #f6f6f6;
+}
 .nav {
 	display: flex;
 	justify-content: space-between;
@@ -110,7 +115,50 @@ body {
 	color: #81b4bd;
 	text-decoration: underline;
 }
+/* Tours */
 
+.tours-page {
+	padding: 90px 0;
+}
+.tours-page-title-wrapper {
+	margin-bottom: 60px;
+}
+/* Cards */
+.cards-wrapper {
+	display: flex;
+
+	flex-wrap: wrap;
+	gap: 60px 30px;
+}
+.card {
+	width: 370px;
+}
+
+.card-img {
+	display: block;
+	margin-bottom: 20px;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+.card-desc {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.card-title {
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 1;
+}
+.card-desc p {
+	line-height: 1.5;
+}
+.card-desc a {
+	font-weight: 500;
+	text-decoration: underline;
+	color: #81b4bd;
+}
 /* footer */
 
 .footer {
