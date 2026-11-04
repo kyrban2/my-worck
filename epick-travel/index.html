@@ -6,6 +6,8 @@
 		<title>Epick Travel</title>
 		<link rel="stylesheet" href="./css/reset.css" />
 		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/media-tablet.css" />
+		<link rel="stylesheet" href="./css/media-mobile.css" />
 		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
 		<link
 			rel="apple-touch-icon"
@@ -26,6 +28,9 @@
 						<li><a href="about.html">О компании</a></li>
 						<li><a href="contacts.html">Контакты</a></li>
 					</ul>
+					<button class="btn-mobile-nav" type="button">
+						<img src="./img/icons/open-mobaile.svg" alt="Меню" />
+					</button>
 				</nav>
 			</div>
 		</header>
@@ -43,7 +48,7 @@
 						<div class="content-img">
 							<img
 								src="./img/main/img-01.jpg"
-								srcset="./img/main/img-01@2x.jpg 2x"
+								srcset="/img/main/img-01@2x.jpg 2x"
 								alt="Популярные направления"
 							/>
 						</div>
@@ -60,11 +65,13 @@
 						</div>
 					</section>
 
-					<section class="content-row content-row-reverse">
+					<section
+						class="content-row content-row-reverse content-column-on-mobile"
+					>
 						<div class="content-img">
 							<img
 								src="./img/main/img-02.jpg"
-								srcset="./img/main/img-02@2x.jpg 2x"
+								srcset="/img/main/img-02@2x.jpg 2x"
 								alt="Популярные направления"
 							/>
 						</div>
@@ -89,7 +96,7 @@
 				<div class="footer-row">
 					<div class="footer-copyright">
 						<p>
-							2024 © ЭпикТрэвел.<br />
+							2024 © ЭпикТрэвел.<br class="desktop-only" />
 							Все права защищены
 						</p>
 					</div>
