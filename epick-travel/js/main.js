@@ -12,6 +12,6 @@ button.addEventListener('click', function () {
 	if (button.classList.contains('nav-open')) {
 		mobileBtnImg.src = './img/icons/close-mobile.svg'
 	} else {
-		mobileBtnImg.src = './img/icons/open-mobaile.svg'
+		mobileBtnImg.src = './img/icons/open-mobile.svg'
 	}
 })

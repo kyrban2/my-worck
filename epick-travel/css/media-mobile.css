@@ -54,4 +54,17 @@
 	.title-1 {
 		font-size: 28px;
 	}
+	/* inner page */
+.inner-page {
+	padding: 40px 0;
+}
+	.cards-wrapper{
+		row-gap: 20px;
+	}
+	.card{
+		width: 290px
+	}
+	.card-desc p{
+		font-size: 14px;
+	}
 }
