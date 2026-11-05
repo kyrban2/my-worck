@@ -16,7 +16,7 @@
 		/>
 	</head>
 	<body class="sticky-footer">
-		<header class="header">
+		<header class="header" id="header">
 			<div class="container">
 				<nav class="nav">
 					<a href="index.html">
@@ -28,12 +28,25 @@
 						<li><a href="about.html">О компании</a></li>
 						<li><a href="contacts.html">Контакты</a></li>
 					</ul>
-					<button class="btn-mobile-nav" type="button">
-						<img src="./img/icons/open-mobaile.svg" alt="Меню" />
+					<button class="btn-mobile-nav" id="btn-mobile-nav" type="button">
+						<img
+							src="./img/icons/open-mobaile.svg"
+							alt="Меню"
+							id="mobile-nav-img"
+						/>
 					</button>
 				</nav>
 			</div>
 		</header>
+		<nav class="mobile-nav" id="mobile-nav">
+			<ul class="mobile-nav-list">
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="tours.html">Туры</a></li>
+				<li><a href="about.html">О компании</a></li>
+				<li><a href="contacts.html">Контакты</a></li>
+			</ul>
+		</nav>
+
 		<main class="main-page">
 			<div class="container">
 				<section class="promo">
@@ -48,7 +61,7 @@
 						<div class="content-img">
 							<img
 								src="./img/main/img-01.jpg"
-								srcset="/img/main/img-01@2x.jpg 2x"
+								srcset="./img/main/img-01@2x.jpg 2x"
 								alt="Популярные направления"
 							/>
 						</div>
@@ -71,7 +84,7 @@
 						<div class="content-img">
 							<img
 								src="./img/main/img-02.jpg"
-								srcset="/img/main/img-02@2x.jpg 2x"
+								srcset="./img/main/img-02@2x.jpg 2x"
 								alt="Популярные направления"
 							/>
 						</div>
@@ -115,5 +128,6 @@
 				</div>
 			</div>
 		</footer>
+		<script src="./js/main.js"></script>
 	</body>
 </html>
