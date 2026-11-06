@@ -6,6 +6,10 @@
 	.container {
 		width: 320px;
 	}
+
+	.container.container-small {
+		width: 290px;
+	}
 	.nav-list {
 		display: none;
 	}
@@ -55,16 +59,25 @@
 		font-size: 28px;
 	}
 	/* inner page */
-.inner-page {
-	padding: 40px 0;
-}
-	.cards-wrapper{
+	.inner-page {
+		padding: 40px 0;
+	}
+	.cards-wrapper {
 		row-gap: 20px;
 	}
-	.card{
-		width: 290px
+	.card {
+		width: 290px;
 	}
-	.card-desc p{
+	.card-desc p {
 		font-size: 14px;
+	}
+	.articale-content p {
+		font-size: 14px;
+	}
+	.articale-content p + p {
+		margin-top: 14px;
+	}
+	.articale-img {
+		margin: 20px 0;
 	}
 }
