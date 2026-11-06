@@ -80,4 +80,20 @@
 	.articale-img {
 		margin: 20px 0;
 	}
+	.address-wrapper {
+		gap: 20px;
+	}
+	.form-wrapper {
+		padding: 20px 15px;
+		font-size: 14px;
+	}
+	.title-2 {
+		font-size: 22px;
+	}
+	.title-3 {
+		font-size: 18px;
+	}
+	.address-wrapper {
+		font-size: 14px;
+	}
 }

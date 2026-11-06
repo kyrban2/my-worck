@@ -374,6 +374,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 60px;
+	width:470px
 }
 .address-item {
 	display: flex;
@@ -388,6 +389,10 @@ body {
 .address-list li {
 	display: flex;
 	gap: 20px;
+}
+.yandex-map{
+	width: 100%;
+	height: 375px;
 }
 /* footer */
 
